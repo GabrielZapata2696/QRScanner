@@ -14,7 +14,6 @@ export class Registro {
 
     private determinarTipo() {
         const inicioTexto = this.text.substr(0, 4);
-        console.log('Tipo', inicioTexto)
         switch (inicioTexto) {
             case 'http':
                 this.type = 'http';
