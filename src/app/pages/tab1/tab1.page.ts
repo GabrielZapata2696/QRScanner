@@ -35,9 +35,10 @@ export class Tab1Page {
       }
 
     }).catch(err => {
-      console.log('Error', err);
+      // console.log('Error', err);
 
-      this.dataLocal.guardarRegistro('QRCode', 'https://www.netflix.com');
+      //this.dataLocal.guardarRegistro('QRCode', 'https://www.netflix.com');
+      this.dataLocal.guardarRegistro('QRCode', 'geo:4.808421324068024,-74.35644700964816');
 
 
     });
